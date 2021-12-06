@@ -1,0 +1,15 @@
+name: onemessage
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: onemessage robot message
+        uses: cmcc-ict/onemessage-notify-action@master
+        with:
+          url: http://117.132.184.53:9005/room/pushToRobot
+          robotKey: ${{ secrets.ROBOT_KEY}}
+          msg : hello        

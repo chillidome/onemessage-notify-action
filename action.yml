@@ -1,9 +1,9 @@
-name: 'Dingtalk Robot Message'
-description: 'dingtalk robot message for github action'
-author: 'fifsky@gmail.com'
+name: 'OneMessage Robot Message'
+description: 'onemessage robot message for github action'
+author: 'cmcc-ict@gmail.com'
 inputs:
   url:
-    description: 'dingtalk webhook'
+    description: 'onemessage webhook'
     required: true
 
   type:

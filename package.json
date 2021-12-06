@@ -1,24 +1,24 @@
 {
-  "name": "dingtalk-robot",
+  "name": "onemessage-robot",
   "version": "0.0.1",
-  "description": "dingtalk robot message for github action",
+  "description": "onemessage robot message for github action",
   "main": "lib/main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fifsky/dingtalk-action.git"
+    "url": "git+https://github.com/cmcc-ict/onemessage-notify-action.git"
   },
   "keywords": [
     "actions",
     "container",
     "toolkit",
-    "dingtalk"
+    "onemessage"
   ],
-  "author": "fifsky@gmail.com",
+  "author": "cmcc-ict@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fifsky/dingtalk-action/issues"
+    "url": "https://github.com/cmcc-ict/onemessage-notify-action/issues"
   },
-  "homepage": "https://github.com/fifsky/dingtalk-action#readme",
+  "homepage": "https://github.com/cmcc-ict/onemessage-notify-action#readme",
   "dependencies": {
     "@actions/core": "^1.0.0",
     "@actions/exec": "^1.0.0",
